@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+
+.main {
+    background-color: blueviolet;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
