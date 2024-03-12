@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, pink, blue, red 100%);
+    background: linear-gradient(45deg, pink, blue, red 100%);
 }
 
 .box {
