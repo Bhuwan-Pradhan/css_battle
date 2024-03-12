@@ -8,7 +8,7 @@ body {
 }
 
 .main {
-    background-color: blueviolet;
+    background-color: rgb(167, 121, 210);
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 50px;
@@ -35,6 +35,54 @@ body {
     font-size: larger;
     font-weight: bold;
     color: white;
+}
+
+.form-Section {
+    margin: 20px;
+}
+
+.form-Section .head {
+    font-size: larger;
+    color: purple;
+}
+
+.form-Section .sub-head {
+    font-size: small;
+    color: white;
+}
+
+.inBox {
+    padding: 10px;
+    padding-left: 0;
+}
+
+.inBox2 {
+    padding: 10px;
+    padding-left: 0;
+}
+
+.inBox2 input {
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px
 }
 
 .right {
