@@ -2,8 +2,45 @@
     padding: 0;
 }
 
-.main {
+body {
     background: linear-gradient(90deg, pink, blue, red 100%);
+}
+
+.box {
+    text-align: center;
+    margin-Top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 50px;
+    width: 80%;
+}
+
+.box h1 {
+    color: purple;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box p {
+    color: gray;
+    font-size: 30px;
+}
+
+.box img {
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.list {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list .item {
+    padding: 50px;
 }
 
 .list-icon {
@@ -15,4 +52,24 @@
     width: 50px;
     width: 50px;
     padding: 20px;
+}
+
+.but-box {
+    margin-left: 350px;
+    display: flex;
+    flex-direction: row;
+}
+
+.but-box .bt {
+    padding: 60px;
+}
+
+.but-box button {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: purple;
+    color: white;
+    font-size: medium;
+
+
 }
