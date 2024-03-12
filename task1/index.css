@@ -14,28 +14,42 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     height: 500px;
+    border-radius: 20px;
+
+}
+
+.nav {
+    margin-top: 50px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding-top: 20px;
+    margin: 25px;
+}
+
+.nav li {
+    margin: 50px;
+    display: inline;
+    padding: 50px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    padding: 50px;
+}
+
+.main2 {
     display: flex;
     flex-direction: row;
 }
 
 .left {
     width: 60%;
-    margin: 50px;
+    margin: 20px;
+    margin-top: 0;
 }
 
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-.nav li {
-    display: inline;
-    padding: 50px;
-    font-size: larger;
-    font-weight: bold;
-    color: white;
-}
 
 .form-Section {
     margin: 20px;
@@ -86,12 +100,29 @@ button {
 }
 
 .right {
-    width: 40%;
-    margin: 50px;
+    margin-top: 20px;
+    margin-top: 0;
 
 }
 
-.rightSubhead img {
+.rightSubhead h1 {
+    width: 100px;
+    color: purple;
+    font-weight: bold;
+}
+
+.desc {
+    padding: 5px;
+    color: white;
+    width: 220px;
+}
+
+.follow h1 {
+    color: purple;
+}
+
+.follow img {
     height: 30px;
     width: 30px;
+    padding: 5px;
 }
