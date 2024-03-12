@@ -31,6 +31,9 @@ body {
     width: 100px;
     border-radius: 50%;
     margin: auto;
+    border: 2px solid gray;
+    position: relative;
+    bottom: 50px;
 }
 
 .list {
@@ -49,6 +52,7 @@ body {
 }
 
 .list-icon img {
+    border: none;
     width: 50px;
     width: 50px;
     padding: 20px;
