@@ -18,6 +18,31 @@ body {
     flex-direction: row;
 }
 
+.left {
+    width: 60%;
+    margin: 50px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 50px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.right {
+    width: 40%;
+    margin: 50px;
+
+}
+
 .rightSubhead img {
     height: 30px;
     width: 30px;
