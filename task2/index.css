@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+}
+
+.main {
+    background: linear-gradient(90deg, pink, blue, red 100%);
+}
+
+.list-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-icon img {
+    width: 50px;
+    width: 50px;
+    padding: 20px;
+}
